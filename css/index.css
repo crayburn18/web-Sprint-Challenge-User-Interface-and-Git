@@ -71,6 +71,13 @@ a{
     color: black;
 }
 
+button {
+    background-color: white;
+    border-radius: 7px;
+    padding: 5px 12px;
+    border: solid 2px rgba(0, 0, 0, 0.726);
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,13 +108,27 @@ header{
     border-bottom: 1px dashed black;
 }
 
-.highway {
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.banner-image {
     margin-bottom: 5%;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.top-content-about .text-container {
+    /* width: 48%; */
+    padding: 0 2%;
     padding-bottom: 20px;  
 }
 
@@ -191,6 +212,8 @@ header{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
 
 footer {
     width: 100%;
